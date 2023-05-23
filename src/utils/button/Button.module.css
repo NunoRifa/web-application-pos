@@ -1,0 +1,43 @@
+.button-primary {
+  background: #ff8800;
+  color: #ffffff;
+  text-align: center;
+  width: 150px;
+  padding: 0.5em 1em;
+  border-radius: 28px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.button-primary:hover {
+  background: #e27900;
+}
+
+.button-secondary {
+  background: #ffffff;
+  color: #ff8800;
+  text-align: center;
+  width: 150px;
+  padding: 0.5em 1em;
+  border-radius: 28px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.button-primary-border {
+  border: 2px solid #ff8800;
+  backdrop-filter: blur(10px);
+  color: #ffffff;
+  text-align: center;
+  width: 300px;
+  padding: 0.5em 1em;
+  border-radius: 28px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.button-primary-border:hover {
+  background: #ff9e30;
+  backdrop-filter: unset;
+}
